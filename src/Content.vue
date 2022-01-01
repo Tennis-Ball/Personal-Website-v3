@@ -42,10 +42,10 @@ const dbg = () => {
         fpsLimit: 60,
         particles: {
           color: {
-            value: '#06b6d4',
+            value: '#65a30d',
           },
           links: {
-            color: '#06b6d4',
+            color: '#65a30d',
             distance: 150,
             enable: true,
             opacity: 0.5,
@@ -59,7 +59,7 @@ const dbg = () => {
             enable: true,
             outMode: 'bounce',
             random: false,
-            speed: 2,
+            speed: 4,
             straight: false,
           },
           number: {

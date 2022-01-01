@@ -15,7 +15,7 @@ const links = [
   { to: "/other", src: server, desc: "Websites" },
 ];
 
-const open = ref(localStorage.getItem("navbar_open") === "true");
+const open = ref(localStorage.getItem("navbar_open") !== "false");
 const close = () => {
   open.value = !open.value;
   localStorage.setItem("navbar_open", open.value ? "true" : "false");
@@ -26,7 +26,7 @@ const close = () => {
   <div class="h-screen flex flex-row items-center sticky top-0">
     <div
       v-bind:class="
-        'flex flex-col justify-center h-full left-0 bg-c_darkblue dark:bg-slate-200 navbar transition-all ease-linear duration-200 origin-left' +
+        'flex flex-col justify-center h-full left-0 bg-c_darkblue navbar transition-all ease-linear duration-200 origin-left' +
         ' ' +
         (open ? 'scale-x-100 w-14' : 'scale-x-0 w-0')
       "
@@ -35,7 +35,7 @@ const close = () => {
         <router-link
           v-bind:to="link.to"
           v-bind:class="
-            'button bg-c_beige hover:bg-slate-300 dark:hover:bg-slate-500' +
+            'button bg-c_beige hover:bg-slate-300' +
             ' ' +
             (open ? 'scale-100' : 'scale-0')
           "

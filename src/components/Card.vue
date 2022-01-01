@@ -7,6 +7,7 @@ import teach from "../assets/work/teach.svg";
 import vue from "../assets/work/vue.svg";
 import rust from "../assets/work/rust.svg";
 import r from "../assets/work/r.svg";
+import git from "../assets/work/git.svg";
 
 const icon = {
   chem,
@@ -17,11 +18,21 @@ const icon = {
   vue,
   rust,
   r,
+  git,
 };
 
 const props = defineProps<{
   title: String;
-  icon: "chem" | "math" | "code" | "teach" | "pen" | "vue" | "rust" | "r";
+  icon:
+    | "chem"
+    | "math"
+    | "code"
+    | "teach"
+    | "pen"
+    | "vue"
+    | "rust"
+    | "r"
+    | "git";
   href?: String;
 }>();
 

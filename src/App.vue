@@ -6,7 +6,9 @@ import Content from "./Content.vue";
 </script>
 
 <template>
-  <div class="flex flex-row dark:bg-gray-700 dark:text-white">
+  <div
+    class="flex flex-row dark:bg-gray-900 dark:text-white dark:bg-opacity-60"
+  >
     <Navbar />
     <div class="m-2 p-3 w-full">
       <Content />

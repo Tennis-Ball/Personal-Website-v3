@@ -4,6 +4,7 @@ import achievements from "../assets/logos/achievements.svg";
 import projects from "../assets/logos/projects.svg";
 import pixel from "../assets/logos/pixel.png";
 import server from "../assets/logos/server.svg";
+import left from "../assets/arrows/left.svg";
 import Darkmode from "./Darkmode.vue";
 import { ref } from "vue";
 
@@ -77,17 +78,18 @@ function is_touch_enabled() {
       />
     </div>
     <button
-      class="
-        w-6
-        h-16
-        rounded-r-lg
-        bg-orange-300
-        hover:bg-orange-200
-        transition-all
-        ease-linear
-      "
+      class="w-6 h-16 p-1 rounded-r-lg bg-c_darkblue transition-all ease-linear"
       @click="close()"
-    ></button>
+    >
+      <img
+        v-bind:src="left"
+        v-bind:class="
+          (open ? '' : 'rotate-180') +
+          ' ' +
+          'transition-all ease-linear duration-200'
+        "
+      />
+    </button>
   </div>
 </template>
 

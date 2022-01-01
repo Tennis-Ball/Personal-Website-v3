@@ -2,7 +2,7 @@
 import Card from "../components/Card.vue";
 </script>
 <template>
-  <div class="text-3xl font-extrabold m-2">Portfolio</div>
+  <div class="text-4xl font-extrabold m-2">Portfolio</div>
   <div class="flex flex-row flex-wrap">
     <Card
       icon="math"

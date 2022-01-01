@@ -1,11 +1,17 @@
 <script setup lang="ts">
 import Card from "../components/Card.vue";
+import pixel from "../assets/logos/pixel.png";
 </script>
 <template>
-  <div class="m-2 text-4xl font-extrabold">School</div>
+  <div class="m-2 text-4xl font-extrabold">
+    School
+    <a href="https://ohs.stanford.edu">
+      <img v-bind:src="pixel" class="h-10 inline" />
+    </a>
+  </div>
   <p class="m-2 text-lg">
-    I currently attend Stanford OHS, where I participate in a variety of classes
-    and activities.
+    I currently attend Stanford Online High School, where I participate in a
+    variety of classes and activities.
   </p>
   <div class="flex flex-row flex-wrap">
     <Card icon="teach" title="2020-21 AP Calculus BC TA">

@@ -2,7 +2,7 @@
 import logo from "../assets/logos/logo.svg";
 import achievements from "../assets/logos/achievements.svg";
 import projects from "../assets/logos/projects.svg";
-import pixel from "../assets/logos/pixel.png";
+import school from "../assets/logos/school.svg";
 import server from "../assets/logos/server.svg";
 import left from "../assets/arrows/left.svg";
 import Darkmode from "./Darkmode.vue";
@@ -12,7 +12,7 @@ const links = [
   { to: "/", src: logo, desc: "Home" },
   { to: "/achievements", src: achievements, desc: "Achievements" },
   { to: "/projects", src: projects, desc: "Projects" },
-  { to: "/school", src: pixel, desc: "School" },
+  { to: "/school", src: school, desc: "School" },
   { to: "/other", src: server, desc: "Websites" },
 ];
 

@@ -20,6 +20,10 @@ const close = () => {
   open.value = !open.value;
   localStorage.setItem("navbar_open", open.value ? "true" : "false");
 };
+
+function is_touch_enabled() {
+  return "ontouchstart" in window || navigator.maxTouchPoints > 0;
+}
 </script>
 
 <template>
@@ -40,9 +44,10 @@ const close = () => {
             (open ? 'scale-100' : 'scale-0')
           "
         >
-          <img alt="logo" v-bind:src="link.src" class="w-8 h-8" />
+          <img v-bind:alt="link.desc" v-bind:src="link.src" class="w-8 h-8" />
         </router-link>
         <span
+          v-if="!is_touch_enabled()"
           class="
             absolute
             dark:bg-slate-100 dark:text-black

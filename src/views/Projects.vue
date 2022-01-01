@@ -40,7 +40,11 @@ import Card from "../components/Card.vue";
       of Medicine at Mount Sinai to create a function that could analyze GC-HRMS
       data and identify halogenated compounds.
     </Card>
-    <Card icon="vue" title="Personal Website">
+    <Card
+      icon="vue"
+      title="Personal Website"
+      href="https://github.com/junikimm717/Personal-Website-v3"
+    >
       This website, written in Vue and Tailwindcss.
     </Card>
   </div>

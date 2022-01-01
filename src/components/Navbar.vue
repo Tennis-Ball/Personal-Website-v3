@@ -4,6 +4,7 @@ import achievements from "../assets/logos/achievements.svg";
 import projects from "../assets/logos/projects.svg";
 import school from "../assets/logos/school.svg";
 import server from "../assets/logos/server.svg";
+import book from "../assets/logos/book.svg";
 import left from "../assets/arrows/left.svg";
 import Darkmode from "./Darkmode.vue";
 import { ref } from "vue";
@@ -13,6 +14,7 @@ const links = [
   { to: "/achievements", src: achievements, desc: "Achievements" },
   { to: "/projects", src: projects, desc: "Projects" },
   { to: "/school", src: school, desc: "School" },
+  { to: "/publications", src: book, desc: "Publications" },
   { to: "/other", src: server, desc: "Websites" },
 ];
 
@@ -82,6 +84,7 @@ function is_touch_enabled() {
       @click="close()"
     >
       <img
+        alt="Navbar Arrow"
         v-bind:src="left"
         v-bind:class="
           (open ? '' : 'rotate-180') +

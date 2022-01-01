@@ -6,7 +6,7 @@ import pixel from "../assets/logos/pixel.png";
   <div class="m-2 text-4xl font-extrabold">
     School
     <a href="https://ohs.stanford.edu">
-      <img v-bind:src="pixel" class="h-10 inline" />
+      <img v-bind:src="pixel" class="h-10 inline" alt="Stanford OHS Pixel" />
     </a>
   </div>
   <p class="m-2 text-lg">

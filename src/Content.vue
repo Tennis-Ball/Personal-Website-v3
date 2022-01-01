@@ -59,7 +59,7 @@ const dbg = () => {
             enable: true,
             outMode: 'bounce',
             random: false,
-            speed: 4,
+            speed: 3,
             straight: false,
           },
           number: {
@@ -77,7 +77,7 @@ const dbg = () => {
           },
           size: {
             random: true,
-            value: 5,
+            value: 2,
           },
         },
         detectRetina: true,

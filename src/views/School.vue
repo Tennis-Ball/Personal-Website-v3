@@ -27,8 +27,12 @@ import pixel from "../assets/logos/pixel.png";
       Competition Club.
     </Card>
     <Card icon="chem" title="OHS Chemistry Olympiad Club">
-      I participated in the OHS Chemistry Olympiad Club, which covers concepts
+      I participate in the OHS Chemistry Olympiad Club, which covers concepts
       that are tested in the USNCO.
+    </Card>
+    <Card icon="volunteer" title="OHS UNICEF Club">
+      I participate in the OHS UNICEF Club, which holds weekly meetings about
+      various topics on children's issues.
     </Card>
   </div>
 </template>

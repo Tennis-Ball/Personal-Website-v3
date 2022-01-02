@@ -17,8 +17,9 @@ import Card from '../components/Card.vue';
 			title="An Analysis of Visual Subitization across Modes of Peripheral Vision"
 			icon="eye"
 		>
-			This paper was presented at the 2021 IEOM Monterrey conference. The
-			proceedings will be published in early to mid 2022.
+			This paper was presented at the 2021 IEOM (Industrial Engineering and
+			Operations Management) Monterrey conference. The proceedings will be
+			published in early to mid 2022.
 		</Card>
 		<Card
 			href="https://www.earthplexmedia.com/2021/07/the-seaweed-threatening-atlantic.html"

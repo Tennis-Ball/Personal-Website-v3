@@ -6,6 +6,7 @@ import school from '../assets/logos/school.svg';
 import server from '../assets/logos/server.svg';
 import book from '../assets/logos/book.svg';
 import left from '../assets/arrows/left.svg';
+import volunteer from '../assets/logos/volunteer.svg';
 import Darkmode from './Darkmode.vue';
 import { ref } from 'vue';
 
@@ -13,8 +14,9 @@ const links = [
 	{ to: '/', src: logo, desc: 'Home' },
 	{ to: '/achievements', src: achievements, desc: 'Achievements' },
 	{ to: '/projects', src: projects, desc: 'Projects' },
-	{ to: '/school', src: school, desc: 'School' },
 	{ to: '/publications', src: book, desc: 'Publications' },
+	{ to: '/school', src: school, desc: 'School' },
+	{ to: '/volunteering', src: volunteer, desc: 'Volunteering' },
 	{ to: '/other', src: server, desc: 'Websites' },
 ];
 

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Card from "../components/Card.vue";
 import List from "../components/List.vue";
-import pixel from "../assets/logos/pixel.png";
+import pixel from "../assets/icons/logos/pixel.png";
 </script>
 <template>
   <div class="m-2 text-3xl sm:text-4xl font-extrabold">

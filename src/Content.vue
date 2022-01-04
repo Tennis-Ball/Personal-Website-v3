@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import gitlab from "./assets/contact/gitlab.svg";
-import github from "./assets/contact/github.svg";
-import instagram from "./assets/contact/instagram.svg";
-import linkedin from "./assets/contact/linkedin.svg";
-import email from "./assets/contact/email.svg";
+import gitlab from "./assets/icons/contact/gitlab.svg";
+import github from "./assets/icons/contact/github.svg";
+import instagram from "./assets/icons/contact/instagram.svg";
+import linkedin from "./assets/icons/contact/linkedin.svg";
+import email from "./assets/icons/contact/email.svg";
 
 const icons = [
   { name: "github", src: github, link: "https://github.com/junikimm717" },

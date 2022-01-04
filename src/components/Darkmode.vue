@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import moon from "../assets/darkmode/moon.svg";
-import sun from "../assets/darkmode/sun.svg";
+import moon from "../assets/icons/darkmode/moon.svg";
+import sun from "../assets/icons/darkmode/sun.svg";
 
 defineProps<{ class: String }>();
 

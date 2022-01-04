@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import chem from "../assets/work/chemistry.svg";
-import code from "../assets/work/code.svg";
-import math from "../assets/work/math.svg";
-import pen from "../assets/work/pen.svg";
-import teach from "../assets/work/teach.svg";
-import vue from "../assets/work/vue.svg";
-import rust from "../assets/work/rust.svg";
-import r from "../assets/work/r.svg";
-import git from "../assets/work/git.svg";
-import db from "../assets/work/db.svg";
-import eye from "../assets/work/eye.svg";
-import volunteer from "../assets/work/volunteer.svg";
+import chem from "../assets/icons/work/chemistry.svg";
+import code from "../assets/icons/work/code.svg";
+import math from "../assets/icons/work/math.svg";
+import pen from "../assets/icons/work/pen.svg";
+import teach from "../assets/icons/work/teach.svg";
+import vue from "../assets/icons/work/vue.svg";
+import rust from "../assets/icons/work/rust.svg";
+import r from "../assets/icons/work/r.svg";
+import git from "../assets/icons/work/git.svg";
+import db from "../assets/icons/work/db.svg";
+import eye from "../assets/icons/work/eye.svg";
+import volunteer from "../assets/icons/work/volunteer.svg";
 
 const icon = {
   chem,

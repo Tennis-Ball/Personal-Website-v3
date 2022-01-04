@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import logo from "../assets/logos/logo.svg";
-import achievements from "../assets/logos/achievements.svg";
-import projects from "../assets/logos/projects.svg";
-import school from "../assets/logos/school.svg";
-import link from "../assets/logos/link.svg";
-import book from "../assets/logos/book.svg";
-import left from "../assets/arrows/left.svg";
-import volunteer from "../assets/logos/volunteer.svg";
+import logo from "../assets/icons/logos/logo.svg";
+import achievements from "../assets/icons/logos/achievements.svg";
+import projects from "../assets/icons/logos/projects.svg";
+import school from "../assets/icons/logos/school.svg";
+import link from "../assets/icons/logos/link.svg";
+import book from "../assets/icons/logos/book.svg";
+import left from "../assets/icons/arrows/left.svg";
+import volunteer from "../assets/icons/logos/volunteer.svg";
 import Darkmode from "./Darkmode.vue";
 import { ref } from "vue";
 

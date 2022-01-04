@@ -4,16 +4,16 @@ import List from "../components/List.vue";
 import pixel from "../assets/logos/pixel.png";
 </script>
 <template>
-  <div class="m-2 text-4xl font-extrabold">
+  <div class="m-2 text-3xl sm:text-4xl font-extrabold">
     School
     <a href="https://ohs.stanford.edu">
       <img v-bind:src="pixel" class="h-10 inline" alt="Stanford OHS Pixel" />
     </a>
   </div>
   <p class="m-2 text-lg">I currently attend Stanford Online High School.</p>
-  <div class="text-3xl font-bold mb-2 mt-10 mx-2">Activities/Clubs</div>
+  <div class="text-3xl font-bold mb-2 mt-10 mx-2">Activities and Clubs</div>
   <hr />
-  <div class="flex flex-row flex-wrap">
+  <div class="cardgrid">
     <Card icon="teach" title="2020-21 AP Calculus BC TA">
       I prepared review sessions and held office hours as the TA of the AP
       Calculus BC class under Ms. Revathi Sundaresan.

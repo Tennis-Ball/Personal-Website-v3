@@ -2,12 +2,14 @@
 import Card from "../components/Card.vue";
 </script>
 <template>
-  <div class="text-4xl font-extrabold m-2">Achievements</div>
+  <div class="text-3xl sm:text-4xl font-extrabold m-2">Achievements</div>
   <p class="m-2 text-lg">
     I have competed in numerous olympiads and contests during my high school
     career.
   </p>
-  <div class="text-3xl font-bold mb-2 mt-10 mx-2">2021-2022 (10th grade)</div>
+  <div class="text-2xl sm:text-3xl font-bold mb-2 mt-10 mx-2">
+    2021-2022 (10th grade)
+  </div>
   <hr />
   <div class="flex flex-row flex-wrap">
     <Card icon="math" title="2022 AIME Qualifier">
@@ -18,9 +20,11 @@ import Card from "../components/Card.vue";
     </Card>
   </div>
 
-  <div class="text-3xl font-bold mb-2 mt-10 mx-2">2020-21 (9th grade)</div>
+  <div class="text-2xl sm:text-3xl font-bold mb-2 mt-10 mx-2">
+    2020-21 (9th grade)
+  </div>
   <hr />
-  <div class="flex flex-row flex-wrap">
+  <div class="cardgrid">
     <Card
       icon="math"
       title="2021 USAJMO Qualifier"
@@ -70,14 +74,17 @@ import Card from "../components/Card.vue";
     </Card>
     <Card
       icon="code"
-      title="2021 CS Mines HSPC"
+      title="2021 CS@Mines HSPC"
       href="https://mines21.kattis.com/standings"
     >
-      Our team of three students placed second out of 56 competitors in the 2021
-      Colorado School of Mines High School Programming Competition.
+      I organized a team of three students and placed second out of 56
+      competitors in the 2021 Colorado School of Mines High School Programming
+      Competition.
     </Card>
   </div>
-  <div class="text-3xl font-bold mt-10 mb-2 mx-2">2019-20 (8th grade)</div>
+  <div class="text-2xl sm:text-3xl font-bold mt-10 mb-2 mx-2">
+    2019-20 (8th grade)
+  </div>
   <hr />
   <div class="flex flex-row flex-wrap">
     <Card title="2020 AIME Qualifier" icon="math">

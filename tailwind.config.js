@@ -9,6 +9,10 @@ module.exports = {
         c_lightblue: "#2d02d0",
         c_pink: "f0cad5",
       },
+      screens: {
+        "3xl": "1792px",
+        short: { raw: "(max-height: 430px)" },
+      },
     },
   },
   plugins: [],

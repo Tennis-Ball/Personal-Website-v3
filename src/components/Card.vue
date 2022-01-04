@@ -52,16 +52,7 @@ const href = props.href ? (props.href as string) : null;
   <a
     v-bind:href="href"
     v-if="href"
-    class="
-      card
-      bg-gray-200
-      dark:bg-gray-600
-      hover:scale-105
-      group
-      hover:bg-yellow-300
-      dark:hover:bg-yellow-300
-      grow
-    "
+    class="card bg-gray-200 dark:bg-gray-600 hover:scale-105 group hover:bg-yellow-300 dark:hover:bg-yellow-300 grow"
   >
     <div class="flex flex-row m-1 gap-2">
       <img
@@ -69,7 +60,7 @@ const href = props.href ? (props.href as string) : null;
         v-bind:src="icon[$props.icon]"
         class="w-9 h-9 bg-blue-500 p-1 rounded-lg"
       />
-      <span class="text-2xl font-bold group-hover:text-orange-500">{{
+      <span class="text-xl sm:text-2xl font-bold group-hover:text-orange-500">{{
         $props.title
       }}</span>
     </div>
@@ -85,7 +76,7 @@ const href = props.href ? (props.href as string) : null;
         v-bind:src="icon[$props.icon]"
         class="w-9 h-9 bg-blue-500 p-1 rounded-lg"
       />
-      <span class="text-2xl font-bold">{{ $props.title }}</span>
+      <span class="text-xl sm:text-2xl font-bold">{{ $props.title }}</span>
     </div>
     <div class="text-lg">
       <slot></slot>

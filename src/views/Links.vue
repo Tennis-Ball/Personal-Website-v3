@@ -6,8 +6,8 @@ const links = [
 ];
 </script>
 <template>
-  <div class="m-2 text-4xl font-extrabold">My Other Websites</div>
-  <div class="flex flex-row flex-wrap">
+  <div class="m-2 text-3xl sm:text-4xl font-extrabold">Links</div>
+  <div class="cardgrid">
     <Card href="https://blog.junickim.me" title="My Blog" icon="pen">
       I occasionally write about programming and ad-hoc thoughts here.
     </Card>

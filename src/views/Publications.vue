@@ -2,8 +2,10 @@
 import Card from "../components/Card.vue";
 </script>
 <template>
-  <div class="m-2 text-4xl font-extrabold">Research and Published Works</div>
-  <div class="flex flex-row flex-wrap">
+  <div class="m-2 text-3xl sm:text-4xl font-extrabold">
+    Research and Published Works
+  </div>
+  <div class="cardgrid">
     <Card
       title="Exposome Research Project"
       icon="db"

@@ -9,3 +9,11 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+
+.cardgrid {
+  @apply grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 3xl:grid-cols-4 justify-start;
+}
+
+body {
+  @apply transition-all ease-linear duration-300;
+}

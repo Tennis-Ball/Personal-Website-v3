@@ -11,6 +11,7 @@ import git from "../assets/icons/work/git.svg";
 import db from "../assets/icons/work/db.svg";
 import eye from "../assets/icons/work/eye.svg";
 import volunteer from "../assets/icons/work/volunteer.svg";
+import doc from "../assets/icons/work/document.svg";
 
 const icon = {
   chem,
@@ -25,23 +26,25 @@ const icon = {
   db,
   eye,
   volunteer,
+  doc,
 };
 
 const props = defineProps<{
   title: String;
   icon:
-    | "chem"
-    | "math"
-    | "code"
-    | "teach"
-    | "pen"
-    | "vue"
-    | "rust"
-    | "r"
-    | "git"
-    | "db"
-    | "eye"
-    | "volunteer";
+  | "chem"
+  | "math"
+  | "code"
+  | "teach"
+  | "pen"
+  | "vue"
+  | "rust"
+  | "r"
+  | "git"
+  | "db"
+  | "eye"
+  | "volunteer"
+  | "doc";
   href?: String;
 }>();
 
@@ -60,9 +63,11 @@ const href = props.href ? (props.href as string) : null;
         v-bind:src="icon[$props.icon]"
         class="w-9 h-9 bg-blue-500 p-1 rounded-lg"
       />
-      <span class="text-xl sm:text-2xl font-bold group-hover:text-orange-500">{{
-        $props.title
-      }}</span>
+      <span class="text-xl sm:text-2xl font-bold group-hover:text-orange-500">
+        {{
+          $props.title
+        }}
+      </span>
     </div>
     <div class="text-lg group-hover:text-orange-500">
       <slot></slot>
@@ -76,7 +81,7 @@ const href = props.href ? (props.href as string) : null;
         v-bind:src="icon[$props.icon]"
         class="w-9 h-9 bg-blue-500 p-1 rounded-lg"
       />
-      <span class="text-xl sm:text-2xl font-bold">{{ $props.title }}</span>
+      <span class="text-xl sm:text-2xl font-bold">{{$props.title}}</span>
     </div>
     <div class="text-lg">
       <slot></slot>

@@ -2,9 +2,10 @@
 import Card from "../components/Card.vue";
 import IEOM from "../assets/files/IEOM_Paper.pdf";
 import Poster from "../assets/files/GC_HRMS_Poster.pdf";
+import Scholastic from "../assets/files/Scholastic.pdf";
 </script>
 <template>
-  <div class="m-2 text-3xl sm:text-4xl font-extrabold">
+  <div class="m-2 text-3xl font-extrabold sm:text-4xl">
     Research and Published Works
   </div>
   <div class="cardgrid">
@@ -23,12 +24,21 @@ import Poster from "../assets/files/GC_HRMS_Poster.pdf";
       published in early to mid 2022.
     </Card>
     <Card
+      v-bind:href="Scholastic"
+      icon="pen"
+      title='console.log("The Web that Won&apos;t Hold")'
+    >
+      I received a Gold Key Award from the Scholastic Art and Writing
+      Region-at-Large East Region for my essay on the environmental effect of
+      poor software development practices.
+    </Card>
+    <Card
       href="https://www.earthplexmedia.com/2021/07/the-seaweed-threatening-atlantic.html"
       icon="pen"
       title="Earthplex Article"
     >
       I wrote an article in the New York Times sponsored blog about the
-      sargassum blooms in the Caribbean, the effects of which I had experienced
+      Sargassum blooms in the Caribbean, the effects of which I had experienced
       while at the beaches there.
     </Card>
   </div>

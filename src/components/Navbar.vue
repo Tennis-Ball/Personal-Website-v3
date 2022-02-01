@@ -53,7 +53,7 @@ function is_touch_enabled() {
 			</div>
 		</div>
 		<button
-			class="w-8 h-20 p-1 rounded-r-lg bg-c_darkblue transition-all ease-linear"
+			class="w-8 h-16 p-1 mt-10 rounded-r-lg bg-c_darkblue transition-all ease-linear"
 			@click="close()"
 		>
 			<img

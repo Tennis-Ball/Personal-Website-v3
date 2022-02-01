@@ -24,7 +24,7 @@ const flip = () => {
 		v-bind:class="$props.class + ' ' + 'sm:text-4xl text-3xl text-white'"
 		@click="flip()"
 	>
-		<i class="far fa-sun" v-if="!darkmode"></i>
-		<i class="far fa-moon" v-else></i>
+		<i class="far fa-moon" v-if="darkmode"></i>
+		<i class="fas fa-moon" v-else></i>
 	</button>
 </template>

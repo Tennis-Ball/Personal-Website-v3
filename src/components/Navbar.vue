@@ -16,7 +16,7 @@ function is_touch_enabled() {
 </script>
 
 <template>
-	<div class="h-screen flex flex-row items-end sticky top-0">
+	<div class="h-screen flex flex-row items-top sticky top-0">
 		<div
 			v-bind:class="
 				'flex flex-col justify-center h-full left-0 bg-c_darkblue navbar transition-all ease-linear duration-200 origin-left' +

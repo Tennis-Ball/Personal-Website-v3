@@ -72,7 +72,7 @@ function is_touch_enabled() {
 <style scoped>
 .button {
 	@apply transition-all ease-linear duration-300 
-    rounded-2xl hover:rounded-md
+    rounded-lg hover:rounded-sm
     m-1 p-1 w-11 h-11  short:w-10 short:h-10
     items-center flex justify-center;
 }

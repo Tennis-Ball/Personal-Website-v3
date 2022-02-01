@@ -70,9 +70,7 @@ const href = props.href ? (props.href as string) : null;
 				>
 				</span>
 			</div>
-			<span class="text-sm sm:text-md font-bold text-fuchsia-500">
-				Clickable
-			</span>
+			<span class="text-sm sm:text-md font-bold text-fuchsia-500"> Link </span>
 		</div>
 		<div class="text-lg group-hover:text-orange-500">
 			<slot></slot>

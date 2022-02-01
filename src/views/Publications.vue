@@ -26,7 +26,7 @@ import Scholastic from '../assets/files/Scholastic.pdf';
 		<Card
 			v-bind:href="Scholastic"
 			icon="pen"
-			title='console.log("The Web that Won&apos;t Hold")'
+			title='console.log ("The Web that Won&apos;t Hold")'
 		>
 			I wrote an essay on the environmental repercussions of poor software
 			development practices, particularly in regards to the web.

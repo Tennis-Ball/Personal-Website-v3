@@ -65,7 +65,7 @@ const href = props.href ? (props.href as string) : null;
 					class="w-9 h-9 bg-c_beige p-1 rounded-lg"
 				/>
 				<span
-					class="text-xl sm:text-2xl font-bold underline underline-offset-1"
+					class="text-xl sm:text-2xl font-bold underline underline-offset-1 decoration-2"
 					v-html="$props.title"
 				>
 				</span>

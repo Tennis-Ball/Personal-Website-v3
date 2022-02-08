@@ -21,6 +21,7 @@ import profile from '../assets/icons/profile.jpg';
 		<div class="flex justify-center mt-10 lg:mt-3 mx-auto">
 			<img
 				v-bind:src="profile"
+				alt="Profile Picture"
 				class="mx-auto w-36 h-36 rounded-2xl sm:w-48 sm:h-48"
 			/>
 		</div>

@@ -14,11 +14,15 @@ import usnco from '../assets/certs/USNCO.pdf';
 	</div>
 	<hr />
 	<div class="cardgrid">
+    <Card icon="math" title="2022 USAJMO Qualifier">
+			I qualified for the 2022 USAJMO (USA Junior Mathematical Olympiad) with a
+			qualification index of 224.
+    </Card>
 		<Card icon="math" title="2022 AIME Qualifier">
 			I qualified for the 2022 AIME (American Invitational Mathematics
 			Examination) by scoring 144/150 on the Fall AMC (American Mathematics
 			Competitions), in which I placed 6th among all 10th graders. I also scored
-			118.5/150 on the AMC 12B.
+			118.5/150 on the AMC 12B and 8/15 on the 2022 AIME I.
 		</Card>
 		<Card
 			icon="pen"

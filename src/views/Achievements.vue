@@ -4,17 +4,21 @@ import scholastic from '../assets/certs/Scholastic.pdf';
 import usnco from '../assets/certs/USNCO.pdf';
 </script>
 <template>
-	<div class="text-3xl sm:text-4xl font-extrabold m-2">Achievements</div>
+	<div class="m-2 text-3xl font-extrabold sm:text-4xl">Achievements</div>
 	<p class="m-2 text-lg">
 		I have competed in numerous olympiads and contests during my high school
 		career.
 	</p>
-	<div class="text-2xl sm:text-3xl font-bold mb-2 mt-10 mx-2">
+	<div class="mx-2 mt-10 mb-2 text-2xl font-bold sm:text-3xl">
 		2021-2022 (10th grade)
 	</div>
 	<hr />
 	<div class="cardgrid">
-    <Card icon="math" title="2022 USAJMO Qualifier">
+    <Card 
+      icon="math" 
+      title="2022 USAJMO Qualifier"
+      href="https://docs.google.com/spreadsheets/d/1KB7iGz5l6Rm6f-HoKidobdKYpv7DCBnr4TDQaN21Lkw"
+    >
 			I qualified for the 2022 USAJMO (USA Junior Mathematical Olympiad) with a
 			qualification index of 224.
     </Card>
@@ -37,7 +41,7 @@ import usnco from '../assets/certs/USNCO.pdf';
 		</Card>
 	</div>
 
-	<div class="text-2xl sm:text-3xl font-bold mb-2 mt-10 mx-2">
+	<div class="mx-2 mt-10 mb-2 text-2xl font-bold sm:text-3xl">
 		2020-21 (9th grade)
 	</div>
 	<hr />
@@ -102,7 +106,7 @@ import usnco from '../assets/certs/USNCO.pdf';
 			Competition.
 		</Card>
 	</div>
-	<div class="text-2xl sm:text-3xl font-bold mt-10 mb-2 mx-2">
+	<div class="mx-2 mt-10 mb-2 text-2xl font-bold sm:text-3xl">
 		2019-20 (8th grade)
 	</div>
 	<hr />

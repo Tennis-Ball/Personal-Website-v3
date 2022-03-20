@@ -2,7 +2,7 @@
 import Card from "../components/Card.vue";
 </script>
 <template>
-  <div class="text-3xl sm:text-4xl font-extrabold m-2">Portfolio</div>
+  <div class="m-2 text-3xl font-extrabold sm:text-4xl">Portfolio</div>
   <div class="cardgrid">
     <Card
       icon="math"
@@ -39,6 +39,14 @@ import Card from "../components/Card.vue";
       I worked at the High Resolution Exposomics Laboratory at Mount Sinai to
       create a function that could analyze GC-HRMS data and identify halogenated
       compounds.
+    </Card>
+    <Card
+      icon="shell"
+      title="Mktex"
+      href="https://github.com/junikimm717/Mktex"
+    >
+      A schoolwork templating and compiling system using docker to manage
+      pandoc,LaTeX, and pythontex dependencies.
     </Card>
     <Card
       icon="vue"

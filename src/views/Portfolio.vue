@@ -9,7 +9,7 @@ import Card from "../components/Card.vue";
       title="The MAA Contest Tester"
       href="https://maatester.com"
     >
-      An Integrated Testing Environment for practice testing AMC/AIME Contests.
+      An Integrated Testing Environment for practicing past AMC/AIME contests.
     </Card>
     <Card icon="rust" title="mt" href="https://github.com/junikimm717/mt">
       A Rust-based program for opening online meetings based on a configured
@@ -45,15 +45,15 @@ import Card from "../components/Card.vue";
       title="Mktex"
       href="https://github.com/junikimm717/Mktex"
     >
-      A schoolwork templating and compiling system using docker to manage
-      pandoc,LaTeX, and pythontex dependencies.
+      A schoolwork templating and compiling system leveraging docker to manage
+      pandoc, LaTeX, and pythontex dependencies.
     </Card>
     <Card
       icon="vue"
       title="Personal Website"
       href="https://github.com/junikimm717/Personal-Website-v3"
     >
-      This website, written in Vue and Tailwindcss.
+      This website, written in Vue+Vite and Tailwindcss.
     </Card>
   </div>
 </template>

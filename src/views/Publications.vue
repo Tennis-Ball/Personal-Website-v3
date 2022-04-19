@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Card from "../components/Card.vue";
-import IEOM from "../assets/files/IEOM_Paper.pdf";
 import Poster from "../assets/files/GC_HRMS_Poster.pdf";
 import Scholastic from "../assets/files/Scholastic.pdf";
 </script>
@@ -17,11 +16,10 @@ import Scholastic from "../assets/files/Scholastic.pdf";
     <Card
       title="An Analysis of Visual Subitization across Modes of Peripheral Vision"
       icon="eye"
-      v-bind:href="IEOM"
+      href="http://ieomsociety.org/proceedings/2021monterrey/97.pdf"
     >
       This paper was presented at the 2021 IEOM (Industrial Engineering and
-      Operations Management) Monterrey conference. The proceedings will be
-      published in early to mid 2022.
+      Operations Management) Monterrey conference.
     </Card>
     <Card
       v-bind:href="Scholastic"

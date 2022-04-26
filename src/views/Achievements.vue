@@ -39,7 +39,7 @@ import usnco from '../assets/certs/USNCO.pdf';
 				Electronic Waste
 			</i>
 		</Card>
-		<Card icon="pen" title="2021 National Latin Exam">
+		<Card icon="pen" title="2022 National Latin Exam">
 			I received a Summa Cum Laude Gold Medal in the 2022 National Latin Exam
 			Intermediate Latin Exam.
 		</Card>

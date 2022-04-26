@@ -13,7 +13,7 @@ import Resume from "../assets/files/Resume.pdf";
       github account.
     </Card>
     <Card v-bind:href="Resume" title="My Resume" icon="doc"
-      >My Full Resume, last updated on January 12, 2022.</Card
+      >My Full Resume, last updated on April 26, 2022.</Card
     >
     <Card
       href="https://nextcloud.junickim.me"

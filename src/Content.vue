@@ -5,6 +5,7 @@ import instagram from "./assets/icons/contact/instagram.svg";
 import linkedin from "./assets/icons/contact/linkedin.svg";
 import email from "./assets/icons/contact/email.svg";
 import links from "./links";
+import resume from "./assets/files/Resume.pdf"
 
 const icons = [
   {
@@ -36,6 +37,12 @@ const icons = [
     src: gitlab,
     link: "https://gitlab.com/junikimm717",
     el: '<i class="fab fa-gitlab"></i>',
+  },
+  {
+    name: "resume",
+    src: "",
+    link: resume,
+    el: '<i class="far fa-file-alt"></i>',
   },
 ];
 

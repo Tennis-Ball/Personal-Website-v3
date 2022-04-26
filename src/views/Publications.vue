@@ -27,7 +27,8 @@ import Scholastic from "../assets/files/Scholastic.pdf";
       title='console.log ("The Web that Won&apos;t Hold")'
     >
       I wrote an essay on the environmental repercussions of poor software
-      development practices, particularly in regards to the web.
+      development practices, particularly in regards to the web. I received a
+      Gold Key from the At-Large-East Writing Region for this essay.
     </Card>
     <Card
       href="https://www.earthplexmedia.com/2021/07/the-seaweed-threatening-atlantic.html"

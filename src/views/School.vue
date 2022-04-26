@@ -30,7 +30,7 @@ import pixel from "../assets/icons/logos/pixel.png";
       I participate in the OHS Chemistry Olympiad Club, which covers concepts
       that are tested in the USNCO.
     </Card>
-    <Card icon="code" title="OHS Competitive Programming Circle">
+    <Card icon="code" title="OHS Competitive Programming Circle Leader">
       I am the leader of the OHS Competitive Programming Circle since 9th grade,
       which holds review sessions for topics that are covered in the USA
       Computing Olympiad.

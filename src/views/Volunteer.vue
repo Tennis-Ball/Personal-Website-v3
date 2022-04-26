@@ -7,7 +7,7 @@ import Card from "../components/Card.vue";
     Volunteering and Tutoring
   </div>
   <div class="cardgrid">
-    <Card title="Lend a Hand" href="https://lendahandtutor.com" icon="teach">
+    <Card title="Founder of <i>Lend a Hand<i>" href="https://lendahandtutor.com" icon="teach">
       I founded and am leading a non-profit organization of volunteer tutors for
       homework help and after-school office hours for students in underserved
       communities. We also undertake environmental volunteering with local

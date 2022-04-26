@@ -17,7 +17,7 @@ import usnco from '../assets/certs/USNCO.pdf';
 		<Card
 			icon="math"
 			title="2022 USAJMO Winner"
-			href="https://www.maa.org/sites/default/files/pdf/AMC/usamo/2022/2022%20USAJMO%20Awardees.docx.pdf"
+			href="https://www.maa.org/sites/default/files/pdf/AMC/usamo/2022/2022%20USAJMO%20Awardees.docx%20%281%29.pdf"
 		>
 			I was a 2022 USAJMO winner (scored 22/42, 22nd in the nation) after
 			qualifying with a qualification index of 224.
@@ -39,7 +39,7 @@ import usnco from '../assets/certs/USNCO.pdf';
 				Electronic Waste
 			</i>
 		</Card>
-		<Card icon="pen" title="2022 National Latin Exam">
+		<Card icon="pen" title="2022 National Latin Exam Gold Medalist">
 			I received a Summa Cum Laude Gold Medal in the 2022 National Latin Exam
 			Intermediate Latin Exam.
 		</Card>
@@ -96,7 +96,7 @@ import usnco from '../assets/certs/USNCO.pdf';
 			I finished in the top 75 out of 2920 competitors in the Senior Division of
 			the 2021 Canadian Computing Competition by scoring 58/75.
 		</Card>
-		<Card icon="pen" title="2021 National Latin Exam">
+		<Card icon="pen" title="2021 National Latin Exam Gold Medalist">
 			I received a Summa Cum Laude Gold Medal in the 2021 National Latin Exam
 			Beginning Latin Exam.
 		</Card>

@@ -16,11 +16,11 @@ import usnco from '../assets/certs/USNCO.pdf';
 	<div class="cardgrid">
 		<Card
 			icon="math"
-			title="2022 USAJMO Qualifier"
-			href="https://docs.google.com/spreadsheets/d/1KB7iGz5l6Rm6f-HoKidobdKYpv7DCBnr4TDQaN21Lkw"
+			title="2022 USAJMO Winner"
+			href="https://www.maa.org/sites/default/files/pdf/AMC/usamo/2022/2022%20USAJMO%20Awardees.docx.pdf"
 		>
-			I scored 22/42 in the 2022 USAJMO (22nd in the nation) after qualifying
-			with a qualification index of 224.
+			I was a 2022 USAJMO winner (scored 22/42, 22nd in the nation) after
+			qualifying with a qualification index of 224.
 		</Card>
 		<Card icon="math" title="2022 AIME Qualifier">
 			I qualified for the 2022 AIME (American Invitational Mathematics

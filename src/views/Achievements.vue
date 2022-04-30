@@ -22,6 +22,11 @@ import usnco from '../assets/certs/USNCO.pdf';
 			I was a 2022 USAJMO winner (scored 22/42, 22nd in the nation) after
 			qualifying with a qualification index of 224.
 		</Card>
+		<Card icon="chem" title="2022-23 Garcia Center Summer Research Program">
+			I was accepted into the High School Summer Research Program of the Garcia
+			Center for Polymers at Engineered Interfaces taking place in Stony Brook
+			University during the summer of 2022.
+		</Card>
 		<Card icon="math" title="2022 AIME Qualifier">
 			I qualified for the 2022 AIME (American Invitational Mathematics
 			Examination) by scoring 144/150 on the Fall AMC (American Mathematics

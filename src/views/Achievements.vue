@@ -27,16 +27,7 @@ import usnco from "../assets/certs/USNCO.pdf";
       Center for Polymers at Engineered Interfaces taking place in Stony Brook
       University during the summer of 2022.
     </Card>
-    <!--Change this link later when scores get moved-->
-    <Card
-      icon="code"
-      title="2022 ACSL Bronze Medalist"
-      href="https://www.scores.acsl.org/leaderboard/finals/s/b/"
-    >
-      I had a perfect ACSL regular season and received a Bronze Medal in the
-      Senior Division of the 2022 ACSL (American Computer Science League) Finals
-      by scoring 29/40 points (37th overall).
-    </Card>
+
     <Card icon="math" title="2022 AIME Qualifier">
       I qualified for the 2022 AIME (American Invitational Mathematics
       Examination) by scoring 144/150 on the Fall AMC (American Mathematics
@@ -57,6 +48,16 @@ import usnco from "../assets/certs/USNCO.pdf";
     <Card icon="pen" title="2022 National Latin Exam Gold Medalist">
       I received a Summa Cum Laude Gold Medal in the 2022 National Latin Exam
       Intermediate Latin Exam.
+    </Card>
+    <!--Change this link later when scores get moved-->
+    <Card
+      icon="code"
+      title="2022 ACSL Bronze Medalist"
+      href="https://www.scores.acsl.org/leaderboard/finals/s/b/"
+    >
+      I had a perfect ACSL regular season and received a Bronze Medal in the
+      Senior Division of the 2022 ACSL (American Computer Science League) Finals
+      by scoring 29/40 points (37th overall).
     </Card>
   </div>
 

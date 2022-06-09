@@ -13,6 +13,11 @@ import Scholastic from "../assets/files/Scholastic.pdf";
       been used by others to find correlations with other diseases. This project
       should be published around early to mid 2022.
     </Card>
+    <Card icon="chem" title="2022-23 Garcia Center Summer Research Program">
+      I will be attending the High School Summer Research Program of the Garcia
+      Center for Polymers at Engineered Interfaces taking place in Stony Brook
+      University during the summer of 2022.
+    </Card>
     <Card
       title="An Analysis of Visual Subitization across Modes of Peripheral Vision"
       icon="eye"

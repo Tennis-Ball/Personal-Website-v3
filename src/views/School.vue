@@ -64,7 +64,6 @@ import pixel from "../assets/icons/logos/pixel.png";
       <li>AP Biology (OB010)</li>
     </List>
     <List title="2020-2021 (9th grade)">
-      <li>Multivariable Differential/Integral Calculus (UM52A/UM52B)</li>
       <li>AP Chemistry (OC010) (5 on AP Test)</li>
       <li>AP Statistics (OM060) (5 on AP Test)</li>
       <li>AP Physics 1 (AP Test only) (5 on AP Test)</li>

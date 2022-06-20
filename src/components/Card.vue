@@ -14,6 +14,7 @@ import volunteer from "../assets/icons/work/volunteer.svg";
 import doc from "../assets/icons/work/document.svg";
 import cloud from "../assets/icons/work/cloud.svg";
 import shell from "../assets/icons/work/shell.svg";
+import docker from "../assets/icons/work/docker.svg";
 
 const icon = {
   chem,
@@ -31,6 +32,7 @@ const icon = {
   doc,
   cloud,
   shell,
+  docker,
 };
 
 const props = defineProps<{
@@ -50,7 +52,8 @@ const props = defineProps<{
     | "volunteer"
     | "doc"
     | "cloud"
-    | "shell";
+    | "shell"
+    | "docker";
   href?: String;
 }>();
 

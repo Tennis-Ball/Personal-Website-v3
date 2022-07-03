@@ -1,14 +1,16 @@
 <script setup lang="ts">
 import Card from "../components/Card.vue";
-import Poster from "../assets/files/GC_HRMS_Poster.pdf";
-import Scholastic from "../assets/files/Scholastic.pdf";
 </script>
 <template>
   <div class="m-2 text-3xl font-extrabold sm:text-4xl">
     Research and Published Works
   </div>
   <div class="cardgrid">
-    <Card title="Exposome Research Project" icon="db" v-bind:href="Poster">
+    <Card
+      title="Exposome Research Project"
+      icon="db"
+      href="/files/GC_HRMS_Poster.pdf"
+    >
       My program, which identifies chlorinated clusters from GC-HRMS data, has
       been used by others to find correlations with other diseases. This project
       should be published around early to mid 2022.
@@ -27,7 +29,7 @@ import Scholastic from "../assets/files/Scholastic.pdf";
       Operations Management) Monterrey conference.
     </Card>
     <Card
-      v-bind:href="Scholastic"
+      href="/files/Scholastic.pdf"
       icon="pen"
       title='console.log ("The Web that Won&apos;t Hold")'
     >

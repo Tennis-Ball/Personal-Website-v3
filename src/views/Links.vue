@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Card from "../components/Card.vue";
-import Resume from "../assets/files/Resume.pdf";
 </script>
 <template>
   <div class="m-2 text-3xl font-extrabold sm:text-4xl">Links</div>
@@ -12,7 +11,7 @@ import Resume from "../assets/files/Resume.pdf";
       I usually put minor projects and scripts here so they don't pollute my
       github account.
     </Card>
-    <Card v-bind:href="Resume" title="My Resume" icon="doc"
+    <Card href="/files/Resume.pdf" title="My Resume" icon="doc"
       >My Full Resume, last updated on April 26, 2022.</Card
     >
     <Card

@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import Card from "../components/Card.vue";
-import scholastic from "../assets/certs/Scholastic.pdf";
-import usnco from "../assets/certs/USNCO.pdf";
 </script>
 <template>
   <div class="m-2 text-3xl font-extrabold sm:text-4xl">Achievements</div>
@@ -32,7 +30,7 @@ import usnco from "../assets/certs/USNCO.pdf";
     <Card
       icon="pen"
       title="2022 Scholastic Writing Regional Gold Key Recipient"
-      v-bind:href="scholastic"
+      href="/certs/Scholastic.pdf"
     >
       I received a Gold Key from the At-Large East Writing Region for my essay,
       <i>
@@ -80,7 +78,7 @@ import usnco from "../assets/certs/USNCO.pdf";
     <Card
       icon="chem"
       title="2021 USNCO National Exam Qualifier <i>(Semi-Finalist)</i>"
-      v-bind:href="usnco"
+      href="/certs/USNCO.pdf"
     >
       I qualified for the 2021 USNCO (USA National Chemistry Olympiad) National
       Exam through the ACS Silicon Valley Chapter by scoring 51/60 on the local

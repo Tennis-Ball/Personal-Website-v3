@@ -4,17 +4,17 @@ import Card from "../components/Card.vue";
 <template>
   <div class="m-2 text-3xl font-extrabold sm:text-4xl">Portfolio</div>
   <div class="cardgrid">
+    <Card icon="docker" title="TeXbld" href="https://texbld.com">
+      A Docker-based build tool for rapidly scaffolding and declaratively
+      compiling papers from template images. Can pull images from GitHub and
+      contains a dependency solver.
+    </Card>
     <Card
       icon="math"
       title="The MAA Contest Tester"
       href="https://maatester.com"
     >
       An Integrated Testing Environment for practicing past AMC/AIME contests.
-    </Card>
-    <Card icon="docker" title="TeXbld" href="https://texbld.com">
-      A Docker-based build tool for rapidly scaffolding and declaratively
-      compiling papers from template images. Can pull images from GitHub and
-      contains a dependency solver.
     </Card>
     <Card icon="math" title="ohsmathc.club" href="https://ohsmathc.club">
       Wrote an extensible Python/Django site for easing the communication

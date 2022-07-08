@@ -61,7 +61,7 @@ import pixel from "../assets/icons/logos/pixel.png";
     </List>
     <List title="2021-2022 (10th grade)">
       <li>Multivariable Differential/Integral Calculus (UM52A/UM52B)</li>
-      <li>AP Biology (OB010)</li>
+      <li>AP Biology (OB010) (5 on AP Test)</li>
     </List>
     <List title="2020-2021 (9th grade)">
       <li>AP Chemistry (OC010) (5 on AP Test)</li>

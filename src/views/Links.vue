@@ -12,7 +12,7 @@ import Card from "../components/Card.vue";
       github account.
     </Card>
     <Card href="/files/Resume.pdf" title="My Resume" icon="doc"
-      >My Full Resume, last updated on April 26, 2022.</Card
+      >My Full Resume, last updated on July 8, 2022.</Card
     >
     <Card
       href="https://nextcloud.junickim.me"

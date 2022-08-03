@@ -14,13 +14,13 @@ import pixel from "../assets/icons/logos/pixel.png";
   <div class="text-3xl font-bold mb-2 mt-10 mx-2">Activities and Clubs</div>
   <hr />
   <div class="cardgrid">
-    <Card icon="teach" title="2020-21 AP Calculus BC TA">
-      I prepared review sessions and held office hours as the TA of the AP
-      Calculus BC class under Ms. Revathi Sundaresan.
-    </Card>
     <Card icon="teach" title="2022-23 Multivariable Calculus TA">
       I am an incumbent TA for the Multivariable Calculus class under Dr. Maxim
       Gilula.
+    </Card>
+    <Card icon="teach" title="2020-21 AP Calculus BC TA">
+      I prepared review sessions and held office hours as the TA of the AP
+      Calculus BC class under Ms. Revathi Sundaresan.
     </Card>
     <Card icon="teach" title="OHS Peer Tutor">
       I serve as a peer tutor of mathematics, chemistry, and biology courses.

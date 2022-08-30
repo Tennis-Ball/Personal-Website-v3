@@ -65,6 +65,8 @@ const href = props.href ? (props.href as string) : null;
     v-bind:href="href"
     v-if="href"
     class="bg-gray-100 card dark:bg-gray-600 hover:scale-105 group grow"
+	target="_blank"
+	rel="noreferrer"
   >
     <div class="flex flex-row gap-2 justify-between m-1">
       <div class="flex flex-row gap-2">

@@ -40,7 +40,7 @@ import Card from "../components/Card.vue";
     </Card>
     <Card icon="pen" title="2022 National Latin Exam Gold Medalist">
       I received a Summa Cum Laude Gold Medal in the 2022 National Latin Exam
-      Intermediate Latin Exam.
+      Intermediate.
     </Card>
     <!--Change this link later when scores get moved-->
     <Card

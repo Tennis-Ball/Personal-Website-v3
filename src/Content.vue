@@ -130,6 +130,8 @@ const dbg = () => {};
             v-bind:href="icon.link"
             v-html="icon.el"
             class="text-3xl"
+			target="_blank"
+			rel="noreferrer"
           >
           </a>
         </div>
@@ -137,7 +139,7 @@ const dbg = () => {};
     </div>
     <div class="text-sm text-center text-gray-800 dark:text-gray-200">
       © 2021-{{ year }} Juni C. Kim <br />
-      Icons made by
+      Icons by
       <a href="https://fontawesome.com/license" title="Font Awesome">
         Font Awesome
       </a>

@@ -11,7 +11,7 @@ import profile from "../assets/icons/profile.jpg";
       <p class="text-base sm:text-lg">
         I am a junior at Stanford Online High School who partakes in web
         development, contest math, and Linux ricing. Ever since my first
-        programming experience preparing for the USACO, I have explored into
+        programming experience preparing for the USACO, I have explored
         other fields in an attempt to find my niche.
         <br /><br />
         I am also a nationally ranked competitive fencer as well as a hobbyist

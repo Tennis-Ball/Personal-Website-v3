@@ -45,7 +45,7 @@ import pixel from "../assets/icons/logos/pixel.png";
     </Card>
     <Card icon="volunteer" title="OHS UNICEF Club">
       I participate in the OHS UNICEF Club, which holds weekly meetings about
-      various topics on children's issues.
+      various topics regarding disadvantaged children.
     </Card>
   </div>
   <div class="text-3xl font-bold mb-2 mt-10 mx-2">AP/Post-AP Coursework</div>
